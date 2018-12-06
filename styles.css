@@ -30,12 +30,14 @@
   .main {
     padding-top:1px;
     padding-bottom: 15px;
-    margin-top:50px;
     text-align: center;
     width: 275px;
-    margin-left: auto;
-    margin-right: auto;
+  }
 
+  #main {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
   }
 
   .topnav {

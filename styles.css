@@ -1,3 +1,55 @@
-body {
-  width: 320px;
-}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+  body {
+    width: 320px;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  ul li {
+  		list-style: none;
+    }
+
+  .header {
+    background-color: #4CB5AB;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  h2 {
+    color: #4CB5AB;
+  }
+
+  .main {
+    padding-top:1px;
+    padding-bottom: 15px;
+    margin-top:50px;
+    text-align: center;
+    width: 275px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .topnav {
+    margin-top: 20px;
+    border-bottom:none;
+    width: 275px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .topnav input[type=text] {
+  	padding: 6px;
+  	border: none;
+  	margin-top: 8px;
+  	margin-right: 16px;
+  	font-size: 17px;
+    border-bottom: none;
